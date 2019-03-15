@@ -1,7 +1,7 @@
 # gatling-sqs
 Load Testing AWS SQS Queue
 
-This gatling load test uses a custom gatling protocol to send mesagges in batching mode to a AWS SQS Fifo Queue.
+This gatling load test uses a custom gatling protocol to send mesagges in batching mode to a AWS SQS Fifo Queue (see aws package for details).
 For testings purposes we have a csv feeder that includes some orders data to send to sqs.
 
 Some parameters needed to run this test are :
